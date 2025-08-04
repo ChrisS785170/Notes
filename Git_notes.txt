@@ -7,3 +7,26 @@ Commands:
     - git add .
     // tells git to track all files that have recieved a change, done usally 
     before a commit to allow git commits to save all changes    
+    - git commit -m "message"
+    // saves all changes from local machine and prepares them to be sent to the online git repository
+    the message usally describes the changes that have been made or some description of the changes.
+    - git push
+    // sends all saved changes from local machine to the online git repository.
+    - git init
+    //intialises a new github repository using a locally created folder.
+    - git checkout -b (name)
+    // makes a new branch with the name that has been input
+    -git checkout (name_of_branch)
+    //switches between branches 
+    -git diff (name_of_branch)
+    // shows the changes made from the inputted branch to the current branch 
+    -git pull
+    // pulls all changes made to the online repository down to your local repository
+    - git branch -d (name_of_branch)
+    // deletes inputted branch
+    -git merge (name_of_branch)
+    // merges the changes from the inputted branche into the currrent branch, if a conflict occurs must be resolved before a successful merge 
+
+    // different editors have different ways to resolve merge conflicts. 
+    // pull requests can be resolved on the online repository, allows other members 
+    of the project to review your code before pushing to master/main.
