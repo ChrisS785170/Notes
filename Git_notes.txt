@@ -1,0 +1,9 @@
+## The notes i've taken while relearning Git and Github.
+
+Commands:
+    - git clone (url)
+    // is the method to clone the repository stored on github 
+    to your local machine and make changes. 
+    - git add .
+    // tells git to track all files that have recieved a change, done usally 
+    before a commit to allow git commits to save all changes    
